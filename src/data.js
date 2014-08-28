@@ -5,7 +5,7 @@ myApp.factory('LinkMedicineSympton', function(){
 	LinkMedicineSympton = [
   {
     "link":"http://homeoint.org/books/boericmm/a/abies-c.htm",
-    "name":"ABIES CANADENSIS-PINUS CANADENSIS",
+    "name":"Abies Canadensis",
     "symptom":[
     			{1:"Head"},
     			{2:"Stomach"},    			
@@ -15,7 +15,7 @@ myApp.factory('LinkMedicineSympton', function(){
   },
   {
     "link":"http://homeoint.org/books/boericmm/a/abies-n.htm",
-    "name":"ABIES NIGRA",
+    "name":"Abies Nigra",
     "symptom":[
     			{1:"Head"},
     			{2:"Stomach"},    			
@@ -25,11 +25,34 @@ myApp.factory('LinkMedicineSympton', function(){
     			{6:"Fever"},
     		]
   },
+  {
+    "link":"http://homeoint.org/books/boericmm/a/abr.htm",
+    "name":"Abrus Precatorius",
+    "symptom":[
+    			{1:"Eyes"},
+    		]
+  },
+  {
+    "link":"http://homeoint.org/books/boericmm/a/absin.htm",
+    "name":"Absinthium",
+    "symptom":[
+    			{1:"Head"},
+    			{2:"Stomach"},    			
+    			{3:"Chest"},    			    			
+    			{4:"Mind"},    			    			
+    			{5:"Mouth"}, 
+    			{6:"Throat"},
+    			{7:"Urine"},    			
+    			{8:"Sexual"},    			
+    		]
+  },
+  
 
 ]
     return LinkMedicineSympton;
 })
 
 function MedicineSymptomController($scope, LinkMedicineSympton){
-	$scope.LinkMedicineSympton = LinkMedicineSympton;
+    $scope.search=[];
+	$scope.LinkMedicineSympton = LinkMedicineSympton;	
 }
