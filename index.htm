@@ -10,9 +10,12 @@
 			<div ng-controller="MedicineSymptomController">
 				<input type="text" ng-model="findLinkMedicineSympton" placeholder="Enter medicine or sypmtom" style="text-align:center;">
 				<table align="center">
-					<tr ng-repeat="data in LinkMedicineSympton.cast | filter:findLinkMedicineSympton">
+					<tr ng-repeat="data in LinkMedicineSympton | filter:findLinkMedicineSympton">
 						<td><a href="{{ data.link }}" target="_blank">{{ data.name }}</a></td>
-						<td>{{ data.symptom }}</td>
+						<span ng-repeat="sym in data.symptom">
+							<td ng-repeat="(key, val) in data.symptom">
+								<span ng-repeat="(id,name) in val"> {{ name }} </span>
+							</td>
 					</tr>
 				</table>
 			</div>
