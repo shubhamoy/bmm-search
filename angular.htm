@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Boericke's Materia Medica Search</title>
+		<link rel="stylesheet" href="src/foundation.min.css">
+	</head>
+	<body>
+		<h1 style="text-align:center;font-weight:100;">Boericke's Materia Medica Search</h1>
+		<div ng-app="boerickeSearch">
+			<div ng-controller="MedicineSymptomController">
+				<input type="text" ng-model="findLinkMedicineSympton" placeholder="Enter medicine or sypmtom" style="text-align:center;">
+				<table align="center">
+					<tr ng-repeat="data in LinkMedicineSympton.cast | filter:findLinkMedicineSympton">
+						<td><a href="{{ data.link }}" target="_blank">{{ data.name }}</a></td>
+						<td>{{ data.symptom }}</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0/angular.min.js"></script>
+		<script type="text/javascript" src="src/data.js"></script>
+	</body>
+</html>
