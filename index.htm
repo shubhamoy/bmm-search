@@ -1,6 +1,6 @@
-<!DOCTYPE html>
-<html>
-	<head>
+	<!DOCTYPE html>
+	<html>
+		<head>
 		<title>Boericke's Materia Medica Search</title>
 		<link rel="stylesheet" href="src/foundation.min.css">
 	</head>
@@ -10,27 +10,28 @@
 			<div ng-controller="MedicineSymptomController">
 				<input type="text" ng-model="findLinkMedicineSympton" placeholder="Enter medicine or symptom" style="text-align:center;">
 				<ul class="breadcrumbs">
-				  <li><input type="checkbox" data-ng-model="search.type1" data-ng-true-value="female" class="inline">Female </li>
-				  <li><input type="checkbox" data-ng-model="search.type2" data-ng-true-value="head" class="inline">Head </li>
-				  <li><input type="checkbox" data-ng-model="search.type3" data-ng-true-value="stomach" class="inline">Stomach </li>			  
-				  <li><input type="checkbox" data-ng-model="search.type4" data-ng-true-value="chest" class="inline">Chest </li>	
-				  <li><input type="checkbox" data-ng-model="search.type5" data-ng-true-value="fever" class="inline">Fever </li>					  
-				  <li><input type="checkbox" data-ng-model="search.type6" data-ng-true-value="back" class="inline">Back </li>	
-				  <li><input type="checkbox" data-ng-model="search.type7" data-ng-true-value="sleep" class="inline">Sleep </li>	
-				  <li><input type="checkbox" data-ng-model="search.type8" data-ng-true-value="eyes" class="inline">Eyes </li>				  
-				  <li><input type="checkbox" data-ng-model="search.type9" data-ng-true-value="mind" class="inline">Mind </li>				  
-				  <li><input type="checkbox" data-ng-model="search.type10" data-ng-true-value="face" class="inline">Face </li>				  
-				  <li><input type="checkbox" data-ng-model="search.type11" data-ng-true-value="urine" class="inline">Urine </li>					  	
-				  <li><input type="checkbox" data-ng-model="search.type12" data-ng-true-value="sexual" class="inline">Sexual </li>					  		 			</ul>
-
-
+					<li><input type="checkbox" data-ng-model="search.type1" data-ng-true-value="female" class="inline">Female </li>
+					<li><input type="checkbox" data-ng-model="search.type2" data-ng-true-value="head" class="inline">Head </li>
+					<li><input type="checkbox" data-ng-model="search.type3" data-ng-true-value="stomach" class="inline">Stomach </li>			  
+					<li><input type="checkbox" data-ng-model="search.type4" data-ng-true-value="chest" class="inline">Chest </li>	
+					<li><input type="checkbox" data-ng-model="search.type5" data-ng-true-value="fever" class="inline">Fever </li>					  
+					<li><input type="checkbox" data-ng-model="search.type6" data-ng-true-value="back" class="inline">Back </li>	
+					<li><input type="checkbox" data-ng-model="search.type7" data-ng-true-value="sleep" class="inline">Sleep </li>	
+					<li><input type="checkbox" data-ng-model="search.type8" data-ng-true-value="eyes" class="inline">Eyes </li>				  
+					<li><input type="checkbox" data-ng-model="search.type9" data-ng-true-value="mind" class="inline">Mind </li>				  
+					<li><input type="checkbox" data-ng-model="search.type10" data-ng-true-value="face" class="inline">Face </li>				  
+					<li><input type="checkbox" data-ng-model="search.type11" data-ng-true-value="urine" class="inline">Urine </li>					  	
+					<li><input type="checkbox" data-ng-model="search.type12" data-ng-true-value="sexual" class="inline">Sexual </li>
+				</ul>
+		
 				<table align="center">
 					<tr ng-repeat="data in LinkMedicineSympton | filter:findLinkMedicineSympton | filter:search.type1| filter:search.type2| filter:search.type3| filter:search.type4| filter:search.type5| filter:search.type6| filter:search.type7| filter:search.type8| filter:search.type9| filter:search.type10| filter:search.type11| filter:search.type12">
-						<td><a href="{{ data.link }}" target="_blank">{{ data.name }}</a></td>
-						<span ng-repeat="sym in data.symptom">
-							<td ng-repeat="(key, val) in data.symptom">
-								<span ng-repeat="(id,name) in val"> {{ name }} </span>
-							</td>
+						<td>
+							<a href="{{ data.link }}" target="_blank">{{ data.name }}</a>
+						</td>
+						<td ng-repeat="(key, val) in data.symptom">
+						  <span ng-repeat="(id,name) in val"> {{ name }} </span>
+					  </td>
 					</tr>
 				</table>
 			</div>
@@ -38,4 +39,4 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0/angular.min.js"></script>
 		<script type="text/javascript" src="src/data.js"></script>
 	</body>
-</html>
+	</html>
