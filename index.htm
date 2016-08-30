@@ -10,24 +10,56 @@
 			<div ng-controller="MedicineSymptomController">
 				<input type="text" ng-model="findLinkMedicineSympton" placeholder="Enter medicine or symptom" style="text-align:center;">
 				<ul class="breadcrumbs">
-				  <li><input type="checkbox" data-ng-model="search.type6" data-ng-true-value="back" id="back" class="inline"><label for="back">Back</label></li>
-				  <li><input type="checkbox" data-ng-model="search.type4" data-ng-true-value="chest" id="chest" class="inline"><label for="chest">Chest</label></li>
-				  <li><input type="checkbox" data-ng-model="search.type8" data-ng-true-value="eyes" id="eyes" class="inline"><label for="eyes">Eyes</label></li>
-				  <li><input type="checkbox" data-ng-model="search.type10" data-ng-true-value="face" id="face" class="inline"><label for="face">Face</label></li>
+					<li><input type="checkbox" data-ng-model="search.type15" data-ng-true-value="abdomen" id="abdomen" class="inline"><label for="abdomen">Abdomen</label></li>
+					<li><input type="checkbox" data-ng-model="search.type6" data-ng-true-value="back" id="back" class="inline"><label for="back">Back</label></li>
+					<li><input type="checkbox" data-ng-model="search.type4" data-ng-true-value="chest" id="chest" class="inline"><label for="chest">Chest</label></li>
+					<li><input type="checkbox" data-ng-model="search.type48" data-ng-true-value="back and extremities" id="back and extremities" class="inline"><label for="back and extremities">Back and Extremities</label></li>
+					<li><input type="checkbox" data-ng-model="search.type38" data-ng-true-value="blood" id="blood" class="inline"><label for="blood">Blood</label></li>
+					<li><input type="checkbox" data-ng-model="search.type29" data-ng-true-value="bones" id="bones" class="inline"><label for="bones">Bones</label></li>
+					<li><input type="checkbox" data-ng-model="search.type42" data-ng-true-value="bowels" id="bowels" class="inline"><label for="bowels">Bowels</label></li>
+					<li><input type="checkbox" data-ng-model="search.type44" data-ng-true-value="breast" id="breast" class="inline"><label for="breast">Breast</label></li>
+					<li><input type="checkbox" data-ng-model="search.type34" data-ng-true-value="circulatory organs" id="circulatory organs" class="inline"><label for="circulatory organs">Circulatory Organs</label></li>
+					<li><input type="checkbox" data-ng-model="search.type20" data-ng-true-value="ears" id="ears" class="inline"><label for="ears">Ears</label></li>
+					<li><input type="checkbox" data-ng-model="search.type17" data-ng-true-value="extremities" id="extremities" class="inline"><label for="extremities">Extremities</label></li>
+					<li><input type="checkbox" data-ng-model="search.type8" data-ng-true-value="eyes" id="eyes" class="inline"><label for="eyes">Eyes</label></li>
+					<li><input type="checkbox" data-ng-model="search.type10" data-ng-true-value="face" id="face" class="inline"><label for="face">Face</label></li>
 					<li><input type="checkbox" data-ng-model="search.type1" data-ng-true-value="female" id="female" class="inline"><label for="female">Female</label></li>
 					<li><input type="checkbox" data-ng-model="search.type5" data-ng-true-value="fever" id="fever" class="inline"><label for="fever">Fever</label></li>
+					<li><input type="checkbox" data-ng-model="search.type46" data-ng-true-value="gastric" id="gastric" class="inline"><label for="gastric">Gastric</label></li>
 					<li><input type="checkbox" data-ng-model="search.type2" data-ng-true-value="head" id="head" class="inline"><label for="head">Head</label></li>
+					<li><input type="checkbox" data-ng-model="search.type19" data-ng-true-value="heart" id="heart" class="inline"><label for="heart">Heart</label></li>
+					<li><input type="checkbox" data-ng-model="search.type49" data-ng-true-value="kidney" id="kidney" class="inline"><label for="kidney">Kidney</label></li>
+					<li><input type="checkbox" data-ng-model="search.type40" data-ng-true-value="liver" id="liver" class="inline"><label for="liver">Liver</label></li>
+					<li><input type="checkbox" data-ng-model="search.type23" data-ng-true-value="male" id="male" class="inline"><label for="male">Male</label></li>
+					<li><input type="checkbox" data-ng-model="search.type37" data-ng-true-value="mental" id="mental" class="inline"><label for="mental">Mental</label></li>
 					<li><input type="checkbox" data-ng-model="search.type9" data-ng-true-value="mind" id="mind" class="inline"><label for="mind">Mind</label></li>
 					<li><input type="checkbox" data-ng-model="search.type14" data-ng-true-value="mouth" id="mouth" class="inline"><label for="mouth">Mouth</label></li>
+					<li><input type="checkbox" data-ng-model="search.type35" data-ng-true-value="neck and back" id="neck and back" class="inline"><label for="neck and back">Neck and Back</label></li>
+					<li><input type="checkbox" data-ng-model="search.type28" data-ng-true-value="nerves" id="nerves" class="inline"><label for="nerves">Nerves</label></li>
+					<li><input type="checkbox" data-ng-model="search.type30" data-ng-true-value="nervous system" id="nervous system" class="inline"><label for="nervous system">Nervous System</label></li>
+					<li><input type="checkbox" data-ng-model="search.type21" data-ng-true-value="nose" id="nose" class="inline"><label for="nose">Nose</label></li>
+					<li><input type="checkbox" data-ng-model="search.type25" data-ng-true-value="organs" id="organs" class="inline"><label for="organs">Organs</label></li>
+					<li><input type="checkbox" data-ng-model="search.type22" data-ng-true-value="rectum" id="rectum" class="inline"><label for="rectum">Rectum</label></li>
+					<li><input type="checkbox" data-ng-model="search.type27" data-ng-true-value="respiration" id="respiration" class="inline"><label for="respiration">Respiration</label></li>
+					<li><input type="checkbox" data-ng-model="search.type16" data-ng-true-value="respiratory" id="respiratory" class="inline"><label for="respiratory">Respiratory</label></li>
+					<li><input type="checkbox" data-ng-model="search.type33" data-ng-true-value="respiratory organs" id="respiratory organs" class="inline"><label for="respiratory organs">Respiratory Organs</label></li>
 					<li><input type="checkbox" data-ng-model="search.type12" data-ng-true-value="sexual" id="sexual" class="inline"><label for="female">Sexual</label></li>
+					<li><input type="checkbox" data-ng-model="search.type18" data-ng-true-value="skin" id="skin" class="inline"><label for="skin">Skin</label></li>
 					<li><input type="checkbox" data-ng-model="search.type7" data-ng-true-value="sleep" id="sleep" class="inline"><label for="sleep">Sleep</label></li>
+					<li><input type="checkbox" data-ng-model="search.type39" data-ng-true-value="spine" id="spine" class="inline"><label for="spine">Spine</label></li>
 					<li><input type="checkbox" data-ng-model="search.type3" data-ng-true-value="stomach" id="stomach" class="inline"><label for="stomach">Stomach</label></li>
+					<li><input type="checkbox" data-ng-model="search.type26" data-ng-true-value="stool" id="stool" class="inline"><label for="stool">Stool</label></li>
+					<li><input type="checkbox" data-ng-model="search.type32" data-ng-true-value="stool and anus" id="stool and anus" class="inline"><label for="stool and anus">Stool and Anus</label></li>
 					<li><input type="checkbox" data-ng-model="search.type13" data-ng-true-value="throat" id="throat" class="inline"><label for="throat">Throat</label></li>
+					<li><input type="checkbox" data-ng-model="search.type36" data-ng-true-value="tissues" id="tissues" class="inline"><label for="tissues">Tissues</label></li>
+					<li><input type="checkbox" data-ng-model="search.type31" data-ng-true-value="tongue" id="tongue" class="inline"><label for="tongue">Tongue</label></li>
 					<li><input type="checkbox" data-ng-model="search.type11" data-ng-true-value="urine" id="urine" class="inline"><label for="urine">Urine</label></li>
+					<li><input type="checkbox" data-ng-model="search.type24" data-ng-true-value="urinary" id="urinary" class="inline"><label for="urinary">Urinary</label></li>
+					<li><input type="checkbox" data-ng-model="search.type43" data-ng-true-value="teeth" id="teeth" class="inline"><label for="teeth">Teeth</label></li>
 				</ul>
-		
+
 				<table align="center">
-					<tr ng-repeat="data in LinkMedicineSympton | filter:findLinkMedicineSympton | filter:search.type1| filter:search.type2| filter:search.type3| filter:search.type4| filter:search.type5| filter:search.type6| filter:search.type7| filter:search.type8| filter:search.type9| filter:search.type10| filter:search.type11| filter:search.type12 | filter:search.type13 | filter:search.type14">
+					<tr ng-repeat="data in LinkMedicineSympton | filter:findLinkMedicineSympton | filter:search.type1 | filter:search.type2 | filter:search.type3 | filter:search.type4 | filter:search.type5 | filter:search.type6 | filter:search.type7 | filter:search.type8| filter:search.type9 | filter:search.type10 | filter:search.type11 | filter:search.type12 | filter:search.type13 | filter:search.type14 | filter:search.type15 | filter:search.type16 | filter:search.type17 | filter:search.type18 | filter:search.type19 | filter:search.type20 | filter:search.type21 | filter:search.type22 | filter:search.type23 | filter:search.type24 | filter:search.type25 | filter:search.type26 | filter:search.type27 | filter:search.type28| filter:search.type29 | filter:search.type30 | filter:search.type31 | filter:search.type32 | filter:search.type33 | filter:search.type34 | filter:search.type35 | filter:search.type36 | filter:search.type37 | filter:search.type38 | filter:search.type39 | filter:search.type40 | filter:search.type42 | filter:search.type43 | filter:search.type44 | filter:search.type46 | filter:search.type48| filter:search.type49">
 						<td>
 							<a href="{{ data.link }}" target="_blank">{{ data.name }}</a>
 						</td>
