@@ -7,22 +7,22 @@
 	    "link":"http://homeoint.org/books/boericmm/a/abies-c.htm",
 	    "name":"Abies Canadensis",
 	    "symptom":[
-				{1:"Head"},
-				{2:"Stomach"},    			
-				{3:"Female"}, 
-				{4:"Fever"},
+				{1:"Female"},
+				{2:"Fever"},    			
+				{3:"Head"}, 
+				{4:"Stomach"},
 			]
 		},
 		{
 			"link":"http://homeoint.org/books/boericmm/a/abies-n.htm",
 			"name":"Abies Nigra",
 			"symptom":[
-				{1:"Head"},
-				{2:"Stomach"},    			
-				{3:"Chest"},    			    			
-				{4:"Back"},    			    			
+				{1:"Back"},
+				{2:"Chest"},    			
+				{3:"Fever"},    			    			
+				{4:"Head"},    			    			
 				{5:"Sleep"}, 
-				{6:"Fever"},
+				{6:"Stomach"},
 			]
 		},
 		{
@@ -36,14 +36,14 @@
 			"link":"http://homeoint.org/books/boericmm/a/absin.htm",
 			"name":"Absinthium",
 			"symptom":[
-				{1:"Head"},
-				{2:"Stomach"},    			
-				{3:"Chest"},    			    			
-				{4:"Mind"},    			    			
-				{5:"Mouth"}, 
-				{6:"Throat"},
-				{7:"Urine"},    			
-				{8:"Sexual"},    			
+				{1:"Chest"},
+				{2:"Head"},    			
+				{3:"Mind"},    			    			
+				{4:"Mouth"},    			    			
+				{5:"Sexual"}, 
+				{6:"Stomach"},
+				{7:"Throat"},    			
+				{8:"Urine"},
 			]
 		}
 	  ];
