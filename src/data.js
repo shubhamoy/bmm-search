@@ -61,7 +61,7 @@ myApp.factory('LinkMedicineSympton', function(){
 		{
 		'name':'ADRENALINUM (ADRENALIN)',
 		'link':'http://homeoint.org/books/boericmm/a/adren.htm',
-		'symptom':[{1: 'Uses'}, {2: 'Caution'}]
+		'symptom':[]
 		},
 		{
 		'name':'AESCULUS HIPPOCASTANUM',
@@ -931,7 +931,7 @@ myApp.factory('LinkMedicineSympton', function(){
 {
 'name':'CHIONANTHUS VIRGINICA (CHIONANTHUS)',
 'link':'http://homeoint.org/books/boericmm/c/chion.htm',
-'symptom':[{1: 'Head'}, {2: 'Tongue'}, {3: 'Mouth'}, {4: 'Abdomen and Liver'}, {5: 'Urine'}, {6: 'Skin'}]
+'symptom':[{1: 'Head'}, {2: 'Tongue'}, {3: 'Mouth'}, {4: 'Abdomen'}, {5: 'Urine'}, {6: 'Skin'}, {7: 'Liver'}]
 },
 {
 'name':'CHLOROFORMIUM (CHLOROFORMUM)',
@@ -1426,7 +1426,7 @@ myApp.factory('LinkMedicineSympton', function(){
 {
 'name':'FORMICA RUFA (MYRMEXINE)',
 'link':'http://homeoint.org/books/boericmm/f/form.htm',
-'symptom':[{1: 'Head'}, {2: 'Ears'}, {3: 'Stomach'}, {4: 'Abdomen and Stool'}, {5: 'Urine'}, {6: 'Respiratory'}, {7: 'Sexual'}, {8: 'Extremities'}, {9: 'Skin'}]
+'symptom':[{1: 'Head'}, {2: 'Ears'}, {3: 'Stomach'}, {4: 'Abdomen'}, {5: 'Urine'}, {6: 'Respiratory'}, {7: 'Sexual'}, {8: 'Extremities'}, {9: 'Skin'}, {9: 'Stool'}]
 },
 {
 'name':'FORMALINUM (FORMALIN)',
@@ -1481,7 +1481,7 @@ myApp.factory('LinkMedicineSympton', function(){
 {
 'name':'GAMBOGIA (GAMBOGIA - GARCINIA MORELLA)',
 'link':'http://homeoint.org/books/boericmm/g/gamb.htm',
-'symptom':[{1: 'Head'}, {2: 'Gastro-enteric Symptoms'}]
+'symptom':[{1: 'Head'}, {2: 'Gastric'}]
 },
 {
 'name':'GAULTHERIA PROCUMBENS (GAULTHERIA)',
@@ -1711,7 +1711,7 @@ myApp.factory('LinkMedicineSympton', function(){
 {
 'name':'ILEX AQUIFOLIUM',
 'link':'http://homeoint.org/books/boericmm/i/ilx-a.htm',
-'symptom':[{1: 'Eye'}]
+'symptom':[{1: 'Eyes'}]
 },
 {
 'name':'INDIUM METALLICUM (INDIUM)',
@@ -1846,7 +1846,7 @@ myApp.factory('LinkMedicineSympton', function(){
 {
 'name':'KALIUM IODATUM (KALI HYDRIODICUM)',
 'link':'http://homeoint.org/books/boericmm/k/kali-i.htm',
-'symptom':[{1: 'Mind'}, {2: 'Head'}, {3: 'Nose'}, {4: 'Eyes'}, {5: 'Ear'}, {6: 'Stomach'}, {7: 'Female'}, {8: 'Respiratory'}, {9: 'Extremities'}, {10: 'Skin'}]
+'symptom':[{1: 'Mind'}, {2: 'Head'}, {3: 'Nose'}, {4: 'Eyes'}, {5: 'Ears'}, {6: 'Stomach'}, {7: 'Female'}, {8: 'Respiratory'}, {9: 'Extremities'}, {10: 'Skin'}]
 },
 {
 'name':'KALIUM MURIATICUM (KALI MURIATICUM)',
@@ -2731,7 +2731,7 @@ myApp.factory('LinkMedicineSympton', function(){
 {
 'name':'RHAMNUS CALIFORNICA',
 'link':'http://homeoint.org/books/boericmm/r/rham-cal.htm',
-'symptom':[{1: 'Mind'}, {2: 'Head'}, {3: 'Ears'}, {4: 'Face'}, {5: 'Mouth'}, {6: 'Throat'}, {7: 'Bowels'}, {8: 'Genito-urinary'}, {9: 'Respiratory'}, {10: 'Heart'}, {11: 'Extremities'}, {12: 'Modality'}]
+'symptom':[{1: 'Mind'}, {2: 'Head'}, {3: 'Ears'}, {4: 'Face'}, {5: 'Mouth'}, {6: 'Throat'}, {7: 'Bowels'}, {8: 'Urinary'}, {9: 'Respiratory'}, {10: 'Heart'}, {11: 'Extremities'}]
 },
 {
 'name':'RHEUM PALMATUM (RHEUM)',
@@ -2781,7 +2781,7 @@ myApp.factory('LinkMedicineSympton', function(){
 {
 'name':'ROSA DAMASCENA',
 'link':'http://homeoint.org/books/boericmm/r/ros-d.htm',
-'symptom':[{1: 'Ear'}]
+'symptom':[{1: 'Ears'}]
 },
 {
 'name':'RUMEX CRISPUS',
@@ -2861,7 +2861,7 @@ myApp.factory('LinkMedicineSympton', function(){
 {
 'name':'SARCOLACTICUM ACIDUM (SARCOLACTIC ACID)',
 'link':'http://homeoint.org/books/boericmm/s/sarcol-a.htm',
-'symptom':[{1: 'General Symptoms'}, {2: 'Throat'}, {3: 'Stomach'}, {4: 'Back and Extremities'}]
+'symptom':[{1: 'Throat'}, {2: 'Stomach'}, {3: 'Back and Extremities'}]
 },
 {
 'name':'SAROTHAMNUS SCOPARIUS (SPARTIUM SCOPARIUM - CYSTISUS SCOPARIUS)',
@@ -3101,7 +3101,7 @@ myApp.factory('LinkMedicineSympton', function(){
 {
 'name':'SYMPHYTUM OFFICINALE (SYMPHYTUM)',
 'link':'http://homeoint.org/books/boericmm/s/symph.htm',
-'symptom':[{1: 'Head'}, {2: 'Eye'}]
+'symptom':[{1: 'Head'}, {2: 'Eyes'}]
 },
 {
 'name':'SYPHILINUM',
@@ -3116,7 +3116,7 @@ myApp.factory('LinkMedicineSympton', function(){
 {
 'name':'TABACUM',
 'link':'http://homeoint.org/books/boericmm/t/tab.htm',
-'symptom':[{1: 'Mind'}, {2: 'Head'}, {3: 'Eyes'}, {4: 'Face'}, {5: 'Throat'}, {6: 'Stomach'}, {7: 'Abdomen'}, {8: 'Rectum'}, {9: 'Urinary'}, {10: 'Heart'}, {11: 'Respiratory'}, {12: 'Extremities'}, {13: 'Sleep'}, {14: 'Fever'}, {15: 'Antidotes'}]
+'symptom':[{1: 'Mind'}, {2: 'Head'}, {3: 'Eyes'}, {4: 'Face'}, {5: 'Throat'}, {6: 'Stomach'}, {7: 'Abdomen'}, {8: 'Rectum'}, {9: 'Urinary'}, {10: 'Heart'}, {11: 'Respiratory'}, {12: 'Extremities'}, {13: 'Sleep'}, {14: 'Fever'}]
 },
 {
 'name':'TANACETUM VULGARE',
@@ -3186,7 +3186,7 @@ myApp.factory('LinkMedicineSympton', function(){
 {
 'name':'THIOSINAMINUM (RHODALLIN)',
 'link':'http://homeoint.org/books/boericmm/t/thiosin.htm',
-'symptom':[{1: 'Ear'}]
+'symptom':[{1: 'Ears'}]
 },
 {
 'name':'THLASPI BURSA PASTORIS (CAPSELLA)',
