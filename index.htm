@@ -18,6 +18,7 @@
 					<li><input type="checkbox" data-ng-model="search.type5" data-ng-true-value="fever" id="fever" class="inline"><label for="fever">Fever</label></li>
 					<li><input type="checkbox" data-ng-model="search.type2" data-ng-true-value="head" id="head" class="inline"><label for="head">Head</label></li>
 					<li><input type="checkbox" data-ng-model="search.type9" data-ng-true-value="mind" id="mind" class="inline"><label for="mind">Mind</label></li>
+					<li><input type="checkbox" data-ng-model="search.type14" data-ng-true-value="mouth" id="mouth" class="inline"><label for="mouth">Mouth</label></li>
 					<li><input type="checkbox" data-ng-model="search.type12" data-ng-true-value="sexual" id="sexual" class="inline"><label for="female">Sexual</label></li>
 					<li><input type="checkbox" data-ng-model="search.type7" data-ng-true-value="sleep" id="sleep" class="inline"><label for="sleep">Sleep</label></li>
 					<li><input type="checkbox" data-ng-model="search.type3" data-ng-true-value="stomach" id="stomach" class="inline"><label for="stomach">Stomach</label></li>
@@ -26,7 +27,7 @@
 				</ul>
 		
 				<table align="center">
-					<tr ng-repeat="data in LinkMedicineSympton | filter:findLinkMedicineSympton | filter:search.type1| filter:search.type2| filter:search.type3| filter:search.type4| filter:search.type5| filter:search.type6| filter:search.type7| filter:search.type8| filter:search.type9| filter:search.type10| filter:search.type11| filter:search.type12 | filter:search.type13">
+					<tr ng-repeat="data in LinkMedicineSympton | filter:findLinkMedicineSympton | filter:search.type1| filter:search.type2| filter:search.type3| filter:search.type4| filter:search.type5| filter:search.type6| filter:search.type7| filter:search.type8| filter:search.type9| filter:search.type10| filter:search.type11| filter:search.type12 | filter:search.type13 | filter:search.type14">
 						<td>
 							<a href="{{ data.link }}" target="_blank">{{ data.name }}</a>
 						</td>
