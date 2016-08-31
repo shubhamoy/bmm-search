@@ -2,7 +2,7 @@
 <html lang="en" ng-app="boerickeSearch">
   <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Boericke's Materia Medica Search</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/foundation/6.2.1/foundation.min.css">
 	  <style>
@@ -94,10 +94,10 @@
       <table align="center">
         <tr ng-repeat="data in LinkMedicineSympton | filter:findLinkMedicineSympton | filter:search.type1 | filter:search.type2 | filter:search.type3 | filter:search.type4 | filter:search.type5 | filter:search.type6 | filter:search.type7 | filter:search.type8| filter:search.type9 | filter:search.type10 | filter:search.type11 | filter:search.type12 | filter:search.type13 | filter:search.type14 | filter:search.type15 | filter:search.type16 | filter:search.type17 | filter:search.type18 | filter:search.type19 | filter:search.type20 | filter:search.type21 | filter:search.type22 | filter:search.type23 | filter:search.type24 | filter:search.type25 | filter:search.type26 | filter:search.type27 | filter:search.type28| filter:search.type29 | filter:search.type30 | filter:search.type31 | filter:search.type32 | filter:search.type33 | filter:search.type34 | filter:search.type35 | filter:search.type36 | filter:search.type37 | filter:search.type38 | filter:search.type39 | filter:search.type40 | filter:search.type42 | filter:search.type43 | filter:search.type44 | filter:search.type46 | filter:search.type48| filter:search.type49">
           <td>
-            <a href="{{ data.link }}" target="_blank">{{ data.name }}</a>
+            <a href="{{ data.link }}" target="_blank"><small>{{ data.name }}</small></a>
           </td>
           <td ng-repeat="(key, val) in data.symptom| orderBy: val">
-						<span> {{ val }} </span>
+						<small> {{ val }} </small>
           </td>
         </tr>
       </table>
