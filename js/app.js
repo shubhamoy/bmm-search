@@ -82,7 +82,7 @@ boerickeSearch.controller('MedicineSymptomController',
       {
       'name':'AGARICUS MUSCARIUS (AGARICUS MUSCARIUS-AMANITA)',
       'link':'http://homeoint.org/books/boericmm/a/agar.htm',
-      'symptom':[ 'Mind', 'Head', 'Eyes', 'Ears', 'Nose', 'Face', 'Mouth', 'Throat', 'Stomach', 'Abdomen', 'Urinary', 'Female', 'Respiratory Organs', 'Heart', 'Back', 'Extremities', 'Skin', 'Sleep', 'Fever']
+      'symptom':[ 'Mind', 'Head', 'Eyes', 'Ears', 'Nose', 'Face', 'Mouth', 'Throat', 'Stomach', 'Abdomen', 'Urinary', 'Female', 'Respiratory', 'Heart', 'Back', 'Extremities', 'Skin', 'Sleep', 'Fever']
       },
       {
       'name':'AGAVE AMERICANA',
@@ -287,12 +287,12 @@ boerickeSearch.controller('MedicineSymptomController',
       {
       'name':'ANTIMONIUM TARTARICUM',
       'link':'http://homeoint.org/books/boericmm/a/ant-t.htm',
-      'symptom':[ 'Mind and Head', 'Tongue', 'Face', 'Stomach', 'Abdomen', 'Urinary', 'Respiratory Organs', 'Back', 'Skin', 'Fever', 'Sleep']
+      'symptom':[ 'Mind and Head', 'Tongue', 'Face', 'Stomach', 'Abdomen', 'Urinary', 'Respiratory', 'Back', 'Skin', 'Fever', 'Sleep']
       },
       {
       'name':'ANTHEMIS NOBILIS',
       'link':'http://homeoint.org/books/boericmm/a/anth.htm',
-      'symptom':[ 'Respiration', 'Abdomen', 'Urinary', 'Skin']
+      'symptom':[ 'Respiratory', 'Abdomen', 'Urinary', 'Skin']
       },
       {
       'name':'ANTHRACINUM',
@@ -307,7 +307,7 @@ boerickeSearch.controller('MedicineSymptomController',
       {
       'name':'ANTIPYRINUM (ANTIPYRINE)',
       'link':'http://homeoint.org/books/boericmm/a/antip.htm',
-      'symptom':[ 'Mind', 'Head', 'Eyes', 'Ears', 'Face', 'Mouth', 'Throat', 'Stomach', 'Urine', 'Female', 'Respiratory', 'Heart', 'Nerves', 'Skin']
+      'symptom':[ 'Mind', 'Head', 'Eyes', 'Ears', 'Face', 'Mouth', 'Throat', 'Stomach', 'Urine', 'Female', 'Respiratory', 'Heart', 'Nervous System', 'Skin']
       },
       {
       'name':'APIUM GRAVEOLENS',
@@ -702,7 +702,7 @@ boerickeSearch.controller('MedicineSymptomController',
       {
       'name':'CALCAREA FLUORICA (FLUOR SPAR)',
       'link':'http://homeoint.org/books/boericmm/c/calc-f.htm',
-      'symptom':[ 'Mind', 'Head', 'Eyes', 'Ears', 'Nose', 'Face', 'Mouth', 'Throat', 'Stomach', 'Stool and Anus', 'Male', 'Respiratory Organs', 'Circulatory Organs', 'Neck and Back', 'Extremities', 'Sleep', 'Skin']
+      'symptom':[ 'Mind', 'Head', 'Eyes', 'Ears', 'Nose', 'Face', 'Mouth', 'Throat', 'Stomach', 'Stool', 'Anus', 'Male', 'Respiratory', 'Circulatory Organs', 'Neck', 'Back', 'Extremities', 'Sleep', 'Skin']
       },
       {
       'name':'CALCAREA IODATA',
@@ -1242,7 +1242,7 @@ boerickeSearch.controller('MedicineSymptomController',
       {
       'name':'DROSERA ROTUNDIFOLIA (DROSERA)',
       'link':'http://homeoint.org/books/boericmm/d/dros.htm',
-      'symptom':[ 'Head', 'Stomach', 'Respiratory Organs', 'Extremities', 'Fever']
+      'symptom':[ 'Head', 'Stomach', 'Respiratory', 'Extremities', 'Fever']
       },
       {
       'name':'DUBOISIA MYOPOROIDES (DUBOISIA)',
@@ -1682,7 +1682,7 @@ boerickeSearch.controller('MedicineSymptomController',
       {
       'name':'HYOSCYAMUS NIGER (HYOSCYAMUS)',
       'link':'http://homeoint.org/books/boericmm/h/hyos.htm',
-      'symptom':[ 'Mind', 'Head', 'Eyes', 'Mouth', 'Throat', 'Stomach', 'Abdomen', 'Stool', 'Urine', 'Male', 'Female', 'Chest', 'Extremities', 'Sleep', 'Nerves']
+      'symptom':[ 'Mind', 'Head', 'Eyes', 'Mouth', 'Throat', 'Stomach', 'Abdomen', 'Stool', 'Urine', 'Male', 'Female', 'Chest', 'Extremities', 'Sleep', 'Nervous System']
       },
       {
       'name':'HYPERICUM PERFORATUM (HYPERICUM)',
@@ -1722,7 +1722,7 @@ boerickeSearch.controller('MedicineSymptomController',
       {
       'name':'INDIGO TINCTORIA (INDIGO)',
       'link':'http://homeoint.org/books/boericmm/i/indg.htm',
-      'symptom':[ 'Head', 'Nose', 'Ears', 'Stomach', 'Rectum', 'Urinary', 'Extremities', 'Nerves']
+      'symptom':[ 'Head', 'Nose', 'Ears', 'Stomach', 'Rectum', 'Urinary', 'Extremities', 'Nervous System']
       },
       {
       'name':'INDOLUM (INDOL)',
@@ -1852,7 +1852,7 @@ boerickeSearch.controller('MedicineSymptomController',
       {
       'name':'KALIUM MURIATICUM (KALI MURIATICUM)',
       'link':'http://homeoint.org/books/boericmm/k/kali-m.htm',
-      'symptom':[ 'Head', 'Eyes', 'Ears', 'Nose', 'Face', 'Mouth', 'Throat', 'Stomach', 'Abdomen', 'Stool', 'Female', 'Respiratory Organs', 'Back and Extremities', 'Skin']
+      'symptom':[ 'Head', 'Eyes', 'Ears', 'Nose', 'Face', 'Mouth', 'Throat', 'Stomach', 'Abdomen', 'Stool', 'Female', 'Respiratory', 'Back', 'Extremities', 'Skin']
       },
       {
       'name':'KALIUM NITRICUM (KALI NITRICUM - NITRUM)',
@@ -2072,7 +2072,7 @@ boerickeSearch.controller('MedicineSymptomController',
       {
       'name':'MAGNESIUM MURIATICUM (MAGNESIA MURIATICA)',
       'link':'http://homeoint.org/books/boericmm/m/mag-m.htm',
-      'symptom':[ 'Head', 'Nose', 'Mouth', 'Stomach', 'Abdomen', 'Urine', 'Bowels', 'Female', 'Heart', 'Respiration', 'Extremities', 'Sleep']
+      'symptom':[ 'Head', 'Nose', 'Mouth', 'Stomach', 'Abdomen', 'Urine', 'Bowels', 'Female', 'Heart', 'Respiratory', 'Extremities', 'Sleep']
       },
       {
       'name':'MAGNESIUM PHOSPHORICUM (MAGNESIA PHOSPHORICA)',
@@ -2137,7 +2137,7 @@ boerickeSearch.controller('MedicineSymptomController',
       {
       'name':'MENTHA PIPERITA',
       'link':'http://homeoint.org/books/boericmm/m/menth.htm',
-      'symptom':[ 'Abdomen', 'Respiration', 'Skin']
+      'symptom':[ 'Abdomen', 'Respiratory', 'Skin']
       },
       {
       'name':'MENTHOLUM',
