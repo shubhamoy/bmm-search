@@ -1,37 +1,39 @@
 <!DOCTYPE html>
 <html lang="en" ng-app="boerickeSearch">
   <head>
-  <title>Boericke's Materia Medica Search</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/foundation/6.2.1/foundation.min.css">
-	<style>
-    @media only screen and (max-width: 800px) {
-			#no-more-tables table,
-			#no-more-tables thead,
-			#no-more-tables tbody,
-			#no-more-tables th,
-			#no-more-tables td,
-			#no-more-tables tr{display:block;}
-			#no-more-tables thead tr{position:absolute;
-															 top:-9999px;
-															 left:-9999px;}
-      #no-more-tables tr{border:1px solid #ccc;}
-			#no-more-tables td{border:none;
-												 border-bottom:1px solid #eee;
-												 position:relative;
-												 white-space:normal;
-												 text-align:center;
-												 word-wrap:break-word;}
-     #no-more-tables tr>td:first-child{background-color:#fff;}
-		 #no-more-tables td:before{position:absolute;
-			 												 top:6px;
-															 left:6px;
-															 width:45%;
-															 padding-right:10px;
-															 white-space:nowrap;
-															 text-align:center;
-															 font-weight:700;}
-    #no-more-tables td:before{content:attr(data-title);}
-	}
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+    <title>Boericke's Materia Medica Search</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/foundation/6.2.1/foundation.min.css">
+	  <style>
+			@media only screen and (max-width: 800px) {
+				#no-more-tables table,
+				#no-more-tables thead,
+				#no-more-tables tbody,
+				#no-more-tables th,
+				#no-more-tables td,
+				#no-more-tables tr{display:block;}
+				#no-more-tables thead tr{position:absolute;
+																 top:-9999px;
+																 left:-9999px;}
+	      #no-more-tables tr{border:1px solid #ccc;}
+				#no-more-tables td{border:none;
+													 border-bottom:1px solid #eee;
+													 position:relative;
+													 white-space:normal;
+													 text-align:center;
+													 word-wrap:break-word;}
+	     #no-more-tables tr>td:first-child{background-color:#fff;}
+			 #no-more-tables td:before{position:absolute;
+				 												 top:6px;
+																 left:6px;
+																 width:45%;
+																 padding-right:10px;
+																 white-space:nowrap;
+																 text-align:center;
+																 font-weight:700;}
+	    #no-more-tables td:before{content:attr(data-title);}
+	  }
 	</style>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
   <script src="js/app.js"></script>
