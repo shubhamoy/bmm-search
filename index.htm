@@ -33,7 +33,7 @@
     #no-more-tables td:before{content:attr(data-title);}
 	}
 	</style>
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
   <script src="js/app.js"></script>
 </head>
 <body>
@@ -76,7 +76,7 @@
         <li><input type="checkbox" data-ng-model="search.type27" data-ng-true-value="'respiration'" id="respiration" class="inline" data-ng-false-value=''><label for="respiration">Respiration</label></li>
         <li><input type="checkbox" data-ng-model="search.type16" data-ng-true-value="'respiratory'" id="respiratory" class="inline" data-ng-false-value=''><label for="respiratory">Respiratory</label></li>
         <li><input type="checkbox" data-ng-model="search.type33" data-ng-true-value="'respiratory organs'" id="respiratory organs" class="inline" data-ng-false-value=''><label for="respiratory organs">Respiratory Organs</label></li>
-        <li><input type="checkbox" data-ng-model="search.type12" data-ng-true-value="'sexual'" id="sexual" class="inline" data-ng-false-value=''><label for="female">Sexual</label></li>
+        <li><input type="checkbox" data-ng-model="search.type12" data-ng-true-value="'sexual'" id="sexual" class="inline" data-ng-false-value=''><label for="sexual">Sexual</label></li>
         <li><input type="checkbox" data-ng-model="search.type18" data-ng-true-value="'skin'" id="skin" class="inline" data-ng-false-value=''><label for="skin">Skin</label></li>
         <li><input type="checkbox" data-ng-model="search.type7" data-ng-true-value="'sleep'" id="sleep" class="inline" data-ng-false-value=''><label for="sleep">Sleep</label></li>
         <li><input type="checkbox" data-ng-model="search.type39" data-ng-true-value="'spine'" id="spine" class="inline" data-ng-false-value=''><label for="spine">Spine</label></li>
@@ -97,7 +97,7 @@
           <td>
             <a href="{{ data.link }}" target="_blank">{{ data.name }}</a>
           </td>
-          <td ng-repeat="(key, val) in data.symptom | orderBy: val">
+          <td ng-repeat="(key, val) in data.symptom| orderBy: val">
 						<span> {{ val }} </span>
           </td>
         </tr>
