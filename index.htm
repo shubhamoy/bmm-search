@@ -96,8 +96,8 @@
           <td>
             <a href="{{ data.link }}" target="_blank"><small>{{ data.name }}</small></a>
           </td>
-          <td ng-repeat="(key, val) in data.symptom| orderBy: val">
-						<small> {{ val }} </small>
+          <td>
+						<small ng-repeat="(key, val) in data.symptom| orderBy: val"> {{ val }}, </small>
           </td>
         </tr>
       </table>
