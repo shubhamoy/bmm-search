@@ -48,12 +48,11 @@
         <li><input type="checkbox" data-ng-model="search.type15" data-ng-true-value="'abdomen'" id="abdomen" class="inline" data-ng-false-value=''><label for="abdomen">Abdomen</label></li>
 				<li><input type="checkbox" data-ng-model="search.type50" data-ng-true-value="'anus'" id="anus" class="inline" data-ng-false-value=''><label for="anus">Anus</label></li>
         <li><input type="checkbox" data-ng-model="search.type6" data-ng-true-value="'back'" id="back" class="inline" data-ng-false-value=''><label for="back">Back</label></li>
-        <li><input type="checkbox" data-ng-model="search.type4" data-ng-true-value="'chest'" id="chest" class="inline" data-ng-false-value=''><label for="chest">Chest</label></li>
-        <li><input type="checkbox" data-ng-model="search.type48" data-ng-true-value="'back and extremities'" id="back and extremities" class="inline" data-ng-false-value=''><label for="back and extremities">Back and Extremities</label></li>
         <li><input type="checkbox" data-ng-model="search.type38" data-ng-true-value="'blood'" id="blood" class="inline" data-ng-false-value=''><label for="blood">Blood</label></li>
         <li><input type="checkbox" data-ng-model="search.type29" data-ng-true-value="'bones'" id="bones" class="inline" data-ng-false-value=''><label for="bones">Bones</label></li>
         <li><input type="checkbox" data-ng-model="search.type42" data-ng-true-value="'bowels'" id="bowels" class="inline" data-ng-false-value=''><label for="bowels">Bowels</label></li>
         <li><input type="checkbox" data-ng-model="search.type44" data-ng-true-value="'breast'" id="breast" class="inline" data-ng-false-value=''><label for="breast">Breast</label></li>
+        <li><input type="checkbox" data-ng-model="search.type4" data-ng-true-value="'chest'" id="chest" class="inline" data-ng-false-value=''><label for="chest">Chest</label></li>
         <li><input type="checkbox" data-ng-model="search.type34" data-ng-true-value="'circulatory organs'" id="circulatory organs" class="inline" data-ng-false-value=''><label for="circulatory organs">Circulatory Organs</label></li>
         <li><input type="checkbox" data-ng-model="search.type20" data-ng-true-value="'ears'" id="ears" class="inline" data-ng-false-value=''><label for="ears">Ears</label></li>
         <li><input type="checkbox" data-ng-model="search.type17" data-ng-true-value="'extremities'" id="extremities" class="inline" data-ng-false-value=''><label for="extremities">Extremities</label></li>
@@ -80,6 +79,7 @@
         <li><input type="checkbox" data-ng-model="search.type18" data-ng-true-value="'skin'" id="skin" class="inline" data-ng-false-value=''><label for="skin">Skin</label></li>
         <li><input type="checkbox" data-ng-model="search.type7" data-ng-true-value="'sleep'" id="sleep" class="inline" data-ng-false-value=''><label for="sleep">Sleep</label></li>
         <li><input type="checkbox" data-ng-model="search.type39" data-ng-true-value="'spine'" id="spine" class="inline" data-ng-false-value=''><label for="spine">Spine</label></li>
+        <li><input type="checkbox" data-ng-model="search.type48" data-ng-true-value="'spleen'" id="spleen" class="inline" data-ng-false-value=''><label for="spleen">Spleen</label></li>
         <li><input type="checkbox" data-ng-model="search.type3" data-ng-true-value="'stomach'" id="stomach" class="inline" data-ng-false-value=''><label for="stomach">Stomach</label></li>
         <li><input type="checkbox" data-ng-model="search.type26" data-ng-true-value="'stool'" id="stool" class="inline" data-ng-false-value=''><label for="stool">Stool</label></li>
         <li><input type="checkbox" data-ng-model="search.type13" data-ng-true-value="'throat'" id="throat" class="inline" data-ng-false-value=''><label for="throat">Throat</label></li>
@@ -91,8 +91,8 @@
 				<li><button class="button" id="clear-filter" ng-click="uncheckAll()" type="button">Clear Filter</button></li>
       </ul>
 			<div id="no-more-tables">
-      <table align="center">
-        <tr ng-repeat="data in LinkMedicineSympton | filter:findLinkMedicineSympton | filter:search.type1 | filter:search.type2 | filter:search.type3 | filter:search.type4 | filter:search.type5 | filter:search.type6 | filter:search.type7 | filter:search.type8| filter:search.type9 | filter:search.type10 | filter:search.type11 | filter:search.type12 | filter:search.type13 | filter:search.type14 | filter:search.type15 | filter:search.type16 | filter:search.type17 | filter:search.type18 | filter:search.type19 | filter:search.type20 | filter:search.type21 | filter:search.type22 | filter:search.type23 | filter:search.type24 | filter:search.type25 | filter:search.type26 | filter:search.type27 | filter:search.type28| filter:search.type29 | filter:search.type30 | filter:search.type31 | filter:search.type32 | filter:search.type33 | filter:search.type34 | filter:search.type35 | filter:search.type36 | filter:search.type37 | filter:search.type38 | filter:search.type39 | filter:search.type40 | filter:search.type42 | filter:search.type43 | filter:search.type44 | filter:search.type46 | filter:search.type48| filter:search.type49">
+      <table class="hover">
+        <tr ng-repeat="data in LinkMedicineSympton | filter:findLinkMedicineSympton | filter:search.type1 | filter:search.type2 | filter:search.type3 | filter:search.type4 | filter:search.type5 | filter:search.type6 | filter:search.type7 | filter:search.type8| filter:search.type9 | filter:search.type10 | filter:search.type11 | filter:search.type12 | filter:search.type13 | filter:search.type14 | filter:search.type15 | filter:search.type16 | filter:search.type17 | filter:search.type18 | filter:search.type19 | filter:search.type20 | filter:search.type21 | filter:search.type22 | filter:search.type23 | filter:search.type24 | filter:search.type25 | filter:search.type26 | filter:search.type27 | filter:search.type28| filter:search.type29 | filter:search.type30 | filter:search.type31 | filter:search.type32 | filter:search.type33 | filter:search.type34 | filter:search.type35 | filter:search.type36 | filter:search.type37 | filter:search.type38 | filter:search.type39 | filter:search.type40 | filter:search.type42 | filter:search.type43 | filter:search.type44 | filter:search.type46 |  filter:search.type48 | filter:search.type49">
           <td>
             <a href="{{ data.link }}" target="_blank"><small>{{ data.name }}</small></a>
           </td>
