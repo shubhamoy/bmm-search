@@ -72,7 +72,7 @@ boerickeSearch.controller('MedicineSymptomController',
       {
       'name':'AETHUSA CYNAPIUM',
       'link':'http://homeoint.org/books/boericmm/a/aeth.htm',
-      'symptom':[ 'Mind', 'Head', 'Eyes', 'Ears', 'Nose', 'Face', 'Mouth', 'Stomach', 'Abdomen', 'Stool', 'Urinary', 'Female', 'Respiratory', 'Heart', 'Back and Extremities', 'Skin', 'Fever', 'Sleep']
+      'symptom':[ 'Mind', 'Head', 'Eyes', 'Ears', 'Nose', 'Face', 'Mouth', 'Stomach', 'Abdomen', 'Stool', 'Urinary', 'Female', 'Respiratory', 'Heart', 'Back', 'Extremities', 'Skin', 'Fever', 'Sleep']
       },
       {
       'name':'AETHIOPS MINERALIS (AETHIOPS MERCURIALIS-MINERALIS)',
@@ -527,7 +527,7 @@ boerickeSearch.controller('MedicineSymptomController',
       {
       'name':'BAPTISIA TINCTORIA (BAPTISIA)',
       'link':'http://homeoint.org/books/boericmm/b/bapt.htm',
-      'symptom':[ 'Mind', 'Head', 'Face', 'Mouth', 'Throat', 'Stomach', 'Abdomen', 'Female', 'Respiratory', 'Back and Extremities', 'Sleep', 'Skin', 'Fever']
+      'symptom':[ 'Mind', 'Head', 'Face', 'Mouth', 'Throat', 'Stomach', 'Abdomen', 'Female', 'Respiratory', 'Back', 'Extremities', 'Sleep', 'Skin', 'Fever']
       },
       {
       'name':'BARYTA ACETICA',
@@ -967,7 +967,7 @@ boerickeSearch.controller('MedicineSymptomController',
       {
       'name':'CICUTA VIROSA',
       'link':'http://homeoint.org/books/boericmm/c/cic.htm',
-      'symptom':[ 'Mind', 'Head', 'Eyes', 'Ears', 'Face', 'Throat', 'Stomach', 'Abdomen', 'Rectum', 'Respiratory', 'Back and extremities', 'Skin']
+      'symptom':[ 'Mind', 'Head', 'Eyes', 'Ears', 'Face', 'Throat', 'Stomach', 'Abdomen', 'Rectum', 'Respiratory', 'Back', 'Extremities', 'Skin']
       },
       {
       'name':'CIMICIFUGA RACEMOSA (CIMICIFUGA - ACTAEA RACEMOSA - MACROTYS)',
@@ -1087,7 +1087,7 @@ boerickeSearch.controller('MedicineSymptomController',
       {
       'name':'CONVALLARIA MAJALIS',
       'link':'http://homeoint.org/books/boericmm/c/conv.htm',
-      'symptom':[ 'Mind and Head', 'Face', 'Mouth', 'Throat', 'Abdomen', 'Urinary Organs', 'Female', 'Respiratory', 'Heart', 'Back and Extremities', 'Fever']
+      'symptom':[ 'Mind and Head', 'Face', 'Mouth', 'Throat', 'Abdomen', 'Urinary Organs', 'Female', 'Respiratory', 'Heart', 'Back', 'Extremities', 'Fever']
       },
       {
       'name':'COPAIVA OFFICINALIS (COPAIVA)',
@@ -1757,7 +1757,7 @@ boerickeSearch.controller('MedicineSymptomController',
       {
       'name':'IRIDIUM METALLICUM (IRIDIUM)',
       'link':'http://homeoint.org/books/boericmm/i/irid-met.htm',
-      'symptom':[ 'Head', 'Respiratory', 'Back and extremities']
+      'symptom':[ 'Head', 'Respiratory', 'Back', 'Extremities']
       },
       {
       'name':'IRIS VERSICOLOR',
@@ -2082,7 +2082,7 @@ boerickeSearch.controller('MedicineSymptomController',
       {
       'name':'MAGNESIUM SULPHURICUM (MAGNESIA SULPHURICA)',
       'link':'http://homeoint.org/books/boericmm/m/mag-s.htm',
-      'symptom':[ 'Head', 'Stomach', 'Urinary', 'Female', 'Neck and Back', 'Extremities', 'Skin', 'Fever', 'Physiologic Dosage']
+      'symptom':[ 'Head', 'Stomach', 'Urinary', 'Female', 'Neck and Back', 'Extremities', 'Skin', 'Fever']
       },
       {
       'name':'MAGNOLIA GRANDIFLORA',
@@ -2412,7 +2412,7 @@ boerickeSearch.controller('MedicineSymptomController',
       {
       'name':'OPIUM (PAPAVER SOMNIFERUM)',
       'link':'http://homeoint.org/books/boericmm/o/op.htm',
-      'symptom':[ 'Mind', 'Head', 'Eyes', 'Face', 'Mouth', 'Stomach', 'Abdomen', 'Stool', 'Urine', 'Female', 'Respiratory', 'Sleep', 'Fever', 'Back and Extremities', 'Skin', 'Non-Homeopathic Preparations and Uses']
+      'symptom':[ 'Mind', 'Head', 'Eyes', 'Face', 'Mouth', 'Stomach', 'Abdomen', 'Stool', 'Urine', 'Female', 'Respiratory', 'Sleep', 'Fever', 'Back', 'Extremities', 'Skin']
       },
       {
       'name':'OPERCULINA TURPENTHUM (OPERCULINA TURPETHUM)',
@@ -2637,7 +2637,7 @@ boerickeSearch.controller('MedicineSymptomController',
       {
       'name':'POPULUS CANDICANS',
       'link':'http://homeoint.org/books/boericmm/p/pop-c.htm',
-      'symptom':[ 'Head', 'Respiratory', 'Doses']
+      'symptom':[ 'Head', 'Respiratory']
       },
       {
       'name':'PRIMULA OBCONICA',
@@ -2862,7 +2862,7 @@ boerickeSearch.controller('MedicineSymptomController',
       {
       'name':'SARCOLACTICUM ACIDUM (SARCOLACTIC ACID)',
       'link':'http://homeoint.org/books/boericmm/s/sarcol-a.htm',
-      'symptom':[ 'Throat', 'Stomach', 'Back and Extremities']
+      'symptom':[ 'Throat', 'Stomach', 'Back', 'Extremities']
       },
       {
       'name':'SAROTHAMNUS SCOPARIUS (SPARTIUM SCOPARIUM - CYSTISUS SCOPARIUS)',
